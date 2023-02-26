@@ -136,3 +136,36 @@ header {
     bottom: 0;
     right: calc((100vw - 1110px) / 2 - 100px);
 }
+
+/* Clients */
+
+.client {
+    margin-top: 79px;
+}
+
+.client .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.client .disc {
+    margin-top: 18px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    color: #7d8589;
+}
+
+.client .row-3 {
+    margin-top: 96px;
+}
+
+.client .row-3 a {
+    padding: 22px 41px;
+}
+
+.client .row-3 a:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
