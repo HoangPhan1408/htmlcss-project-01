@@ -35,6 +35,13 @@ a {
     align-items: center;
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 /* Header */
 /* Nav */
 header {
@@ -352,6 +359,7 @@ header {
     margin-left: 11px;
 }
 
+/* Stat */
 .stat {
     margin-top: 75px;
     padding: 50px 0;
@@ -472,4 +480,59 @@ header {
     line-height: 1.5;
     color: #7b8087;
     margin-top: 22px;
+}
+
+/* <-- Subscription --> */
+
+.sub {
+    margin-top: 90px;
+}
+
+.sub .box {
+    position: relative;
+    height: 370px;
+    background: #063183;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sub .sub-box {
+    margin-left: 80px;
+    width: 671px;
+    max-width: 100%;
+}
+
+.sub .sub-box h2 {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    color: #ffffff;
+}
+
+.sub .sub-box p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #ffffff;
+    opacity: 0.75;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.sub .sub-box .button1 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #002366;
+    background: #ffffff;
+    border-radius: 12px;
+    min-width: 151px;
+}
+
+.sub .box img {
+    position: absolute;
+    bottom: 0;
+    right: 221px;
 }
