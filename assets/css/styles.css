@@ -29,6 +29,12 @@ a {
     padding: 18px 16px;
 }
 
+.row {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
 /* Header */
 /* Nav */
 header {
@@ -141,12 +147,6 @@ header {
 
 .client {
     margin-top: 79px;
-}
-
-.row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .client .disc {
@@ -350,4 +350,126 @@ header {
     letter-spacing: 0.01em;
     color: #4d4d52;
     margin-left: 11px;
+}
+
+.stat {
+    margin-top: 75px;
+    padding: 50px 0;
+}
+
+.stat .content {
+    width: 1048px;
+}
+
+.stat .img-block,
+.stat .info {
+    width: 50%;
+}
+
+.stat .img-block .image {
+    display: block;
+    width: 400px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-left: auto;
+}
+
+.stat .row {
+    align-items: normal;
+}
+
+.stat .info {
+    margin: 0;
+    padding: 79px 0 0 165px;
+}
+
+.stat .info h2 {
+    position: relative;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.29;
+    color: #000339;
+    margin-bottom: 20px;
+}
+
+.stat .info h2::before {
+    position: absolute;
+    top: -10px;
+    content: "";
+    width: 41px;
+    height: 4px;
+    background: #000339;
+    border-radius: 12px;
+}
+
+.stat .info p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #5a6473;
+}
+
+.stat .img-block {
+    position: relative;
+}
+
+.stat .trend {
+    position: absolute;
+    top: 0;
+    background: #ffffff;
+    width: 239px;
+    left: 0;
+    border-radius: 0px 0px 12px 12px;
+    padding: 45px 22px 40px;
+}
+
+.stat .trend .row {
+    justify-content: none;
+}
+
+.stat .trend strong {
+    font-weight: 700;
+    font-size: 2.6rem;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    color: #000339;
+}
+
+.stat .trend img {
+    margin-left: auto;
+}
+
+.stat .trend .desc {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #a7a7a7;
+}
+
+.stat .trend .separate {
+    height: 2px;
+    background: #e9e9e9;
+    margin-top: 25px;
+}
+
+.stat .list-sale strong {
+    font-weight: 600;
+    font-size: 6.4rem;
+    line-height: 1;
+    color: #000000;
+}
+
+.stat .row-1 {
+    justify-content: space-between;
+    margin-top: 110px;
+}
+
+.stat .list-sale .desc {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #7b8087;
+    margin-top: 22px;
 }
